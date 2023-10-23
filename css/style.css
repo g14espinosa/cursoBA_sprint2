@@ -1,0 +1,178 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    max-width: 100px;
+    height: auto;
+}
+
+/* Estilos de la barra de navegación */
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    border-bottom: 2px solid white;
+}
+
+/* Estilos de las secciones */
+section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos del contenido principal */
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Estilos del contenido principal */
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Estilos del aside (sidebar de imágenes) */
+#sidebar {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+#sidebar h2 {
+    text-align: center;
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-row img {
+    max-width: 150px;
+    height: auto;
+    margin-right: 100px;
+}
+
+/* Estilos de las secciones con imagen de fondo */
+.background-image {
+    background-image: url(https://as2.ftcdn.net/v2/jpg/04/78/06/19/1000_F_478061918_AGpryQxgkqLJjDs6JAVD16kvWUaAuKGo.jpg); /* Reemplaza 'background.jpg' con la ruta de .tu imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Estilos de las secciones con imagen de fondo */
+.background-image2 {
+    background-image: url(https://t3.ftcdn.net/jpg/06/04/52/36/240_F_604523680_iz1t2T75KyvCr3fy9xPtYZs7AKlgYWNB.jpg); /* Reemplaza 'background.jpg' con la ruta de .tu imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Estilos de las secciones con imagen de fondo */
+.background-image3 {
+    background-image: url(https://as1.ftcdn.net/v2/jpg/04/71/18/76/1000_F_471187679_gjjbw9EyMFbRvJCU6nzbMT88ABDQkzl1.jpg); /* Reemplaza 'background.jpg' con la ruta de .tu imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+    padding: 20px;
+}
+
+
+/* Estilos de las secciones con imagen de fondo */
+.background-image4 {
+    background-image: url(https://as2.ftcdn.net/v2/jpg/06/48/40/09/1000_F_648400929_gz47vTaL0xNLD4iqRpL5KCtjCRzAdllY.jpg); /* Reemplaza 'background.jpg' con la ruta de .tu imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+    padding: 20px;
+}
+/* Estilos de fuentes */
+.font1 {
+    font-family: 'Arial', sans-serif;
+}
+
+.font2 {
+    font-family: 'Georgia', serif;
+}
+
+/* Estilos para el enlace "Flex contenedor" */
+.flex-contenedor {
+    display: flex;
+}
+.flex-contenedor div {
+    width: 200%;
+    height: 50px;
+    background-color: brown;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos para el enlace "Ir al Inicio" */
+#ir-al-inicio {
+    color: rgb(15, 15, 15);
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    padding: 10px; /* Ajusta el espaciado vertical */
+    margin: 0 auto; /* Centra horizontalmente */
+}
+
+#ir-al-inicio:hover {
+    border-bottom: 2px solid white;
+}
