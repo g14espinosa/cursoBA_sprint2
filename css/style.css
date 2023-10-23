@@ -73,7 +73,7 @@ main {
     margin: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    
+
 }
 
 #sidebar h2 {
@@ -93,7 +93,8 @@ main {
 
 /* Estilos de las secciones con imagen de fondo */
 .background-image {
-    background-image: url(https://as2.ftcdn.net/v2/jpg/04/78/06/19/1000_F_478061918_AGpryQxgkqLJjDs6JAVD16kvWUaAuKGo.jpg); /* Reemplaza 'background.jpg' con la ruta de .tu imagen de fondo */
+    background-image: url(https://as2.ftcdn.net/v2/jpg/04/78/06/19/1000_F_478061918_AGpryQxgkqLJjDs6JAVD16kvWUaAuKGo.jpg);
+    /* Reemplaza 'background.jpg' con la ruta de .tu imagen de fondo */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -103,7 +104,8 @@ main {
 
 /* Estilos de las secciones con imagen de fondo */
 .background-image2 {
-    background-image: url(https://t3.ftcdn.net/jpg/06/04/52/36/240_F_604523680_iz1t2T75KyvCr3fy9xPtYZs7AKlgYWNB.jpg); /* Reemplaza 'background.jpg' con la ruta de .tu imagen de fondo */
+    background-image: url(https://t3.ftcdn.net/jpg/06/04/52/36/240_F_604523680_iz1t2T75KyvCr3fy9xPtYZs7AKlgYWNB.jpg);
+    /* Reemplaza 'background.jpg' con la ruta de .tu imagen de fondo */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -113,7 +115,8 @@ main {
 
 /* Estilos de las secciones con imagen de fondo */
 .background-image3 {
-    background-image: url(https://as1.ftcdn.net/v2/jpg/04/71/18/76/1000_F_471187679_gjjbw9EyMFbRvJCU6nzbMT88ABDQkzl1.jpg); /* Reemplaza 'background.jpg' con la ruta de .tu imagen de fondo */
+    background-image: url(https://as1.ftcdn.net/v2/jpg/04/71/18/76/1000_F_471187679_gjjbw9EyMFbRvJCU6nzbMT88ABDQkzl1.jpg);
+    /* Reemplaza 'background.jpg' con la ruta de .tu imagen de fondo */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -124,13 +127,15 @@ main {
 
 /* Estilos de las secciones con imagen de fondo */
 .background-image4 {
-    background-image: url(https://as2.ftcdn.net/v2/jpg/06/48/40/09/1000_F_648400929_gz47vTaL0xNLD4iqRpL5KCtjCRzAdllY.jpg); /* Reemplaza 'background.jpg' con la ruta de .tu imagen de fondo */
+    background-image: url(https://as2.ftcdn.net/v2/jpg/06/48/40/09/1000_F_648400929_gz47vTaL0xNLD4iqRpL5KCtjCRzAdllY.jpg);
+    /* Reemplaza 'background.jpg' con la ruta de .tu imagen de fondo */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     color: #fff;
     padding: 20px;
 }
+
 /* Estilos de fuentes */
 .font1 {
     font-family: 'Arial', sans-serif;
@@ -144,6 +149,7 @@ main {
 .flex-contenedor {
     display: flex;
 }
+
 .flex-contenedor div {
     width: 200%;
     height: 50px;
@@ -151,7 +157,41 @@ main {
     margin: 10px;
     text-align: center;
     color: white;
-    
+
+}
+
+/* Estilos para el enlace "Ejemplo de Web Responsive" */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.photo {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.caption {
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .photo {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .photo {
+        width: 100%;
+    }
 }
 
 /* Estilos del pie de página */
@@ -169,8 +209,10 @@ footer {
     font-weight: bold;
     display: block;
     text-align: center;
-    padding: 10px; /* Ajusta el espaciado vertical */
-    margin: 0 auto; /* Centra horizontalmente */
+    padding: 10px;
+    /* Ajusta el espaciado vertical */
+    margin: 0 auto;
+    /* Centra horizontalmente */
 }
 
 #ir-al-inicio:hover {

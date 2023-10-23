@@ -7,6 +7,8 @@
     <title>SM SERVICE - Reparaciones Electronicas</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./assets/settings5_116556.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
@@ -24,6 +26,30 @@
         </ul>
     </nav>
     <main>
+        <!-- ejemplo de carrusel - IMPLEMENTANDO BOOTSTRAP -->
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/soldadores/solda1.jpg" class="d-block w-100" alt="soldador_jbc">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/soldadores/solda2.jpg" class="d-block w-100" alt="soldador_jbc2">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/soldadores/solda3.jpg" class="d-block w-100" alt="soldador_jbc3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- ejemplo de carrusel - IMPLEMENTANDO BOOTSTRAP -->
+
         <section id="seccion1" class="background-image">
             <h2>Servicio técnico y reparación de equipos</h2>
             <p class="font2">Lo revisamos en el momento, te realizamos un diagnóstico completo y en pocas horas lo tenés
@@ -71,18 +97,60 @@
                 allowfullscreen></iframe>
         </section>
         <a href="#" id="ir-al-inicio">Ir al Inicio</a>
-    <div class="flex-contenedor">
-        <div>Contenedor_1</div>
-        <div>Contenedor_2</div>
-        <div>Contenedor_3</div>
-        <div>Contenedor_4</div>
-        <div>Contenedor_5</div>
-        <div>Contenedor_6</div>
-    </div>    
+        <!-- ejemplo de FLEXBOX -->
+        <div class="flex-contenedor">
+            <div>Contenedor_1</div>
+            <div>Contenedor_2</div>
+            <div>Contenedor_3</div>
+            <div>Contenedor_4</div>
+            <div>Contenedor_5</div>
+            <div>Contenedor_6</div>
+        </div>
+         <!-- ejemplo de FLEXBOX -->
+
+        <!-- ejemplo de contenedor con imagenes - WEB RESPONSIVE -->
+        <div class="container">
+            <div class="photo">
+                <img src="./assets/Iphones/Iphone1.jpg" alt="Iphone1">
+                <div class="caption">Iphone x - 128GB</div>
+            </div>
+            <div class="photo">
+                <img src="./assets/Iphones/Iphone 2.jpg" alt="Iphone2">
+                <div class="caption">Iphone 11 - 128GB</div>
+            </div>
+            <div class="photo">
+                <img src="./assets/Iphones/Iphone 3.jpg" alt="Iphone3">
+                <div class="caption">Iphone 12 - 128GB</div>
+            </div>
+            <div class="photo">
+                <img src="./assets/Iphones/Iphone 4.jpg" alt="Iphone4">
+                <div class="caption">Iphone 13 - 128GB</div>
+            </div>
+            <div class="photo">
+                <img src="./assets/Iphones/Iphone5.jpg" alt="Iphone5">
+                <div class="caption">Iphone 14 - 128GB</div>
+            </div>
+            <div class="photo">
+                <img src="./assets/Iphones/Iphone 6.jpg" alt="Iphone6">
+                <div class="caption">Iphone 15 - 128GB</div>
+            </div>
+        </div>
+        <!-- ejemplo de contenedor con imagenes - WEB RESPONSIVE -->
+        
+        <!-- ejemplo de carrusel - IMPLEMENTANDO BOOTSTRAP -->
+        <div class="text-center">
+            <div class="spinner-border" role="status">
+              <span class="visually-hidden">CARGANDO...</span>
+            </div>
+        </div>
+        <!-- ejemplo de carrusel - IMPLEMENTANDO BOOTSTRAP -->
+
     </main>
     <footer>
         <p>&copy; 2023 - SM SERVICE - Espinosa Gaston C59 </p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>    
 </body>
 
 </html>
